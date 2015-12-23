@@ -2,7 +2,8 @@
 
 int main()
 {
-	printf("sizeof('a')=%d\n",sizeof('a'));
-	printf("sizeof(1)=%d\n",sizeof(1));
+	char c;
+	printf("sizeof('a')=%lu %lu\n",sizeof('a'), sizeof(c));
+	printf("sizeof(1)=%lu \n",sizeof(1));
 	return;
 }
